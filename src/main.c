@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 {
 	sjcmap cm = sjcmap_create(int, int);
 
-	int count = 500000;
+	int count = 5000;
 	for (int i = 0; i < count; i++)
 	{
 		int negative = -i;
